@@ -70,9 +70,16 @@ nav a:hover,nav a:focus-visible{border-color:var(--gold);outline:none}
 .contact{font-size:1.2rem}.contact a{color:var(--ink)}
 #works .series:first-of-type{margin-top:0}
 @media (max-width:700px){.facts{grid-template-columns:1fr 1fr}.two,.skills{grid-template-columns:1fr;gap:2rem}.entries{grid-template-columns:4.2rem 1fr;gap:0 .8rem}}
+
+/* Links to the three independent portfolio sections */
+.portfolio-switch{display:flex;justify-content:center;align-items:center;gap:.6rem;flex-wrap:wrap;background:var(--bg);border-bottom:1px solid var(--line);padding:.5rem 1rem;font:500 .83rem/1.5 "DM Sans","IBM Plex Sans Arabic",sans-serif}
+.portfolio-switch a{color:var(--mute);border:1px solid var(--line);border-radius:999px;text-decoration:none;padding:.35rem .8rem;transition:background .2s ease}
+.portfolio-switch a.active{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.portfolio-switch a:hover,.portfolio-switch a:focus-visible{border-color:var(--gold)}
 </style>
 </head>
 <body>
+<div class="portfolio-switch" aria-label="معارض مي حلمي"><a class="active" href="./" aria-current="page">الفنانة والعلاج بالفن</a><a href="./en/">Artist &amp; Art Therapy</a><a href="./teaching/">Art Teacher</a></div>
 <nav aria-label="أقسام الصفحة"><a href="#about">نبذة</a><a href="#skills">المهارات</a><a href="#works">الأعمال</a><a href="#shows">المعارض والمنح</a><a href="#edu">التعليم</a><a href="#contact">التواصل</a></nav>
 <main>
 <section class="hero">
@@ -104,7 +111,7 @@ nav a:hover,nav a:focus-visible{border-color:var(--gold);outline:none}
 <li>شهادة برنامج العلاج الجمعي بالسيكودراما، مركز المستقبل لتدريب السيكودراما (2022)</li>
 <li>برنامج تدريب الإرشاد النفسي، كلية كوننجس لندن (2023)</li>
 <li>برنامج تدريب الاضطرابات النفسية، جامعة عين شمس (2022)</li>
-<li>معتمدة في تحليل السلوك التطبيقي (2022)</li>
+<li>تدريب في تحليل السلوك التطبيقي (2022)</li>
 <li>شهادة تدريب مدربين (TOT) معتمدة من المجلس الأعلى للجامعات (2026)</li></ul></div>
 </div></section>
 <section class="sec" id="skills"><h2>المهارات</h2>
@@ -141,13 +148,13 @@ nav a:hover,nav a:focus-visible{border-color:var(--gold);outline:none}
 <section class="sec" id="edu"><h2>التعليم والشهادات</h2>
 <dl class="entries">
 <dt>2026</dt><dd>شهادة تدريب مدربين (TOT)<small>معتمدة من المجلس الأعلى للجامعات</small></dd>
-<dt>2024</dt><dd>شهادة إعداد معالج بالفن<small>جامعة فلوريدا</small></dd>
+<dt>2024</dt><dd>دورة «الاستشفاء بالفنون» (Healing with the Arts)<small>دورة إلكترونية غير معتمدة بساعات جامعية، مقدمة عبر Coursera بتصريح من جامعة فلوريدا (2024)</small></dd>
 
 <dt>2023</dt><dd>برنامج تدريب الإرشاد النفسي<small>كلية كوننجس لندن</small></dd>
 <dt>2022</dt><dd>برنامج تدريب الاضطرابات النفسية<small>جامعة عين شمس</small></dd>
 <dt>2022</dt><dd>شهادة برنامج العلاج الجمعي بالسيكودراما<small>مركز المستقبل لتدريب السيكودراما</small></dd>
 <dt>2022</dt><dd>برنامج تدريبي بساعات معتمدة لإعداد معالج بالفن<small>معتمد من جامعة عين شمس</small></dd>
-<dt>2022</dt><dd>تحليل السلوك التطبيقي (شهادة)</dd>
+<dt>2022</dt><dd>تدريب في تحليل السلوك التطبيقي (10 ساعات)</dd>
 <dt>1999</dt><dd>بكالوريوس الفنون الجميلة<small>جامعة حلوان، قسم الرسوم المتحركة وفن الكتاب</small></dd>
 </dl></section>
 <section class="sec contact" id="contact"><h2>التواصل</h2>
@@ -155,7 +162,7 @@ nav a:hover,nav a:focus-visible{border-color:var(--gold);outline:none}
 <div class="btns"><a href="https://wa.me/201203787321" rel="noopener">واتساب</a><a href="https://www.instagram.com/zat_art_therapy_/" rel="noopener">إنستجرام</a><a href="https://www.linkedin.com/in/art-therapy-mai-helmy" rel="noopener">لينكدإن</a></div></section>
 </div>
 </main>
-<footer><span>مي حلمي</span><span lang="en" dir="ltr">Portfolio 2025</span></footer>
+<footer><span>مي حلمي</span><span lang="en" dir="ltr">Portfolio 2026</span></footer>
 <dialog id="lb"><img alt=""></dialog>
 <script>
 const lb=document.getElementById('lb'),big=lb.querySelector('img');
